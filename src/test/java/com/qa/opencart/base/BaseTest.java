@@ -7,13 +7,13 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.asserts.SoftAssert;
 
-import com.qa.opercart.factory.DriverFactory;
-import com.qa.opercart.pages.AccountsPage;
-import com.qa.opercart.pages.LoginPage;
-import com.qa.opercart.pages.ProductInfoPage;
-import com.qa.opercart.pages.RegisterPage;
-import com.qa.opercart.pages.SearchResultsPage;
-import com.qa.opercart.pages.ShoppingBagPage;
+import com.qa.opencart.factory.DriverFactory;
+import com.qa.opencart.pages.AccountsPage;
+import com.qa.opencart.pages.LoginPage;
+import com.qa.opencart.pages.ProductInfoPage;
+import com.qa.opencart.pages.RegisterPage;
+import com.qa.opencart.pages.SearchResultsPage;
+import com.qa.opencart.pages.ShoppingBagPage;
 
 public class BaseTest {
 	public DriverFactory df;
