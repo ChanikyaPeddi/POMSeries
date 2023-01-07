@@ -1,4 +1,4 @@
-package com.qa.opercart.factory;
+package com.qa.opencart.factory;
 
 import java.io.File;
 import java.io.FileInputStream;

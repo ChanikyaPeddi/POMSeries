@@ -1,4 +1,4 @@
-package com.qa.opercart.pages;
+package com.qa.opencart.pages;
 
 import java.util.ArrayList;
 import java.util.List;

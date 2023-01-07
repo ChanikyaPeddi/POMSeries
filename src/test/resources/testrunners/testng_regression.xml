@@ -28,25 +28,26 @@
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
-	<!--<test name="Open Cart Accounts Page Test_chrome_91">
+	<test name="Open Cart Accounts Page Test_chrome_91">
 		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="91.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsTestPage" />
 		</classes>
 	</test>
-	<test name="Open Cart Accounts Page Test_chrome_100">S
+	
+	<!--<test name="Open Cart Accounts Page Test_chrome_100">S
 		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="100.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsTestPage" />
 		</classes>
 	</test>-->
-	<!--<test name="Open Cart Register Page Test_chrome_100">
+	<test name="Open Cart Register Page Test_chrome_100">
 		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="100.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.RegisterTest" />
 		</classes>
-	</test>-->
+	</test>
 </suite>

@@ -1,0 +1,69 @@
+got to the project 
+keypharase - github@3117
+git --version - to check version
+
+2. git init - initialize 
+
+3. ls -alt 
+
+4.git remote add origin "url of your project"- to connect local and remote repository
+
+5. add .gitignore
+
+6. git status - to check status  
+
+7. git add . - it creates a copy of your local project from workspace and adds files from local repo to stagging or indexing section .
+
+8.  git status
+
+9. git commit -m "message/reason for commit" - creates copy from stagging to local repo
+
+10. git push origin master - to move repo from local to remote repo
+----------------------------------------------------------------
+git checkout main / git branch -M main
+
+git push -u origin main
+
+-----------------------------------------------------
+How to remove remote origin from a Git repository?
+git remote set-url origin git://new.url.here
+-----------------------------------------------------
+how to cut branch 
+git branch branch-name
+
+---------------------
+to create a branch and switch to it
+git checkout -b branch-name
+----------------------------
+
+how to switch between branches
+git checkout branchname
+------------------------
+to know the remote branches
+git branch -r
+---------------------------------
+to know all branches from local and remote 
+git branch -vv
+--------------------------------
+to delete branch on remote
+git branch -d origin branchname
+-------------------------------------
+to know logs
+git log
+git log --oneline - to knw short logs
+git log --author="author name"
+git log --before="date"
+git log --after="date"
+git log --grep="keyword"
+git show
+git show HEAD~2 - shows last two comitts
+git log --stat -- better commit history
+-------------------------------------
+tag and release:
+git tag tagname
+git push origin tagname
+-----------------------------------
+how to create a tag and release in git? - interview question 
+
+
+
