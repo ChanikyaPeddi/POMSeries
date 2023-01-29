@@ -55,6 +55,7 @@ public class DriverFactory {
 		else {
 			System.out.println("Please provide correct browser... your requested browser is : " + browserName);
 		}
+		
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
